@@ -12,4 +12,4 @@
 
 - [ ] What are three different ways to style components in React? Explain some of the benefits of each.
 
-  We can use bootstrap & reactstrap (component libraries with pre built components that are already styled), the styled components library (a library full of components that can be styled individually and inline),
+  We can use bootstrap & reactstrap (component libraries with pre built components that are already styled), the styled components library (a library full of components that can be styled individually and inline in JS),
