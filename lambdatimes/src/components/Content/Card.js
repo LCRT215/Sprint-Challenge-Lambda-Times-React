@@ -4,12 +4,16 @@ import PropTypes from "prop-types";
 const Card = props => {
   return (
     <div className="card">
-      <div className="headline">{props.headline}</div>
+      <div className="headline">{props.card.headline}</div>
+      {/* Remember, Card is being evoked in the map in cards.js. That map uses card as the placeholder so card needs to be referred to*/}
       <div className="author">
         <div className="img-container">
-          <img src={props.img /* image source goes here */} alt="card image" />
+          <img
+            src={props.card.img /* image source goes here */}
+            alt="card image"
+          />
         </div>
-        <span>By {props.author}</span>
+        <span>By {props.card.author}</span>
       </div>
     </div>
   );
